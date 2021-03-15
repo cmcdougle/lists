@@ -1,0 +1,48 @@
+# tops
+#
+
+A:
+  reverse:
+  - A
+  - C
+  band:
+  - A
+  - B
+  - C
+
+B:
+  reverse:
+  - A
+  - B
+  - C
+  band:
+  - A
+  - B
+  - C
+
+C:
+  reverse:
+  - A
+  - B
+  band:
+  - A
+  - C
+
+D:
+  reverse:
+  - A
+  - B
+  - C
+  band:
+  - A
+  - B
+
+E:
+  reverse:
+  - A
+  - B
+  - C
+  band:
+  - A
+  - B
+  - C
