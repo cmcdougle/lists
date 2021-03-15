@@ -1,10 +1,25 @@
 # tops
 #
 
+###
+# Settings for Top A
+# Modify these to the accurate settings for top A
+# the following line is the top name
 A:
+# now for the reverse styles it accepts, in this case A and B
   reverse:
   - A
+  - B
   - C
+### 
+# Expected output:
+# Top: A, Reverse: A, Band: A
+# Top: A, Reverse: A, Band: B
+# Top: A, Reverse: A, Band: B
+# Top: A, Reverse: B, Band: A
+# and so on down all the combinations for the letters above
+
+# now for the band styles this one acceps
   band:
   - A
   - B
